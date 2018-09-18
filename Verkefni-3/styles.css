@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+     margin: 0 auto;
+     line-height: 1.4;
+}
+header{
+    background-color: khaki;
+}
+header h1{
+    text-align: center;
+    font-style: italic;
+    background-color:gray;
+}
+.col-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section {
+    padding: 1em;
+    border: 1px solid black;
+}
+.serif {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.monotype {
+    font-family: 'Courier New', Courier, monospace;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.palaTino {
+    font-family:'palatino Linotype","Book Antiqua",Palatino,serif';
+}
+.fyrirsogn h1{
+    font-family: impact, "Arial black", sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+.fyrirsogn{
+    background-color: lightgreen;
+    text-align: center;
+}
+.comic{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.sansSerif {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.arialBlack{
+    font-family: "ArialBlack",Gadget,Sans-serif;
+}
+.raudur{
+    color: red;
+}
+.small{
+    font-size: 0.6em;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
