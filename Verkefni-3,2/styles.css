@@ -1,0 +1,57 @@
+*{
+ box-sizing: border-box; 
+ /* border: 1px solid red; */  
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+.midja{
+    grid-area: midja;
+}
+.vinstri{
+    grid-area: vinstri;
+}
+.haegri{
+    grid-area: haegri;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "vinstri midja haegri";
+}
+p, h4 {
+    padding: 0.1em 1em;
+}
+h4 {
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+header{
+    text-align: center;
+}
+.topnav{
+    background-color: brown;
+    padding: .5em;
+}
+.topmenu a{
+    text-decoration: none;
+    color: yellow; 
+    padding: .5em;
+}
+.topmenu a:hover, .topmenu a:active{
+    background-color: yellow;
+    color: brown;
+}
