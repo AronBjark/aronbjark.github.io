@@ -1,0 +1,86 @@
+*{
+ box-sizing: border-box; 
+ /* border: 1px solid red; */  
+}
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    display: grid;
+    grid-auto-columns: 3fr 1fr;
+    grid-template-areas:
+        "topnav"
+        "header"
+        "main"
+        "footer"
+;
+}
+header {
+    grid-area: header;
+}
+.topnav {
+    grid-area: topnav;
+}
+main {
+    grid-area: main;
+    background-color: burlywood;
+}
+footer {
+    grid-area: footer;
+    background-color: lightcoral;
+}
+/*inn i .content */
+.midja{
+    grid-area: midja;
+}
+.vinstri{
+    grid-area: vinstri;
+}
+.haegri{
+    grid-area: haegri;
+}
+/* base stílar */
+.topmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "vinstri midja haegri";
+}
+p, h4 {
+    padding: 0.1em 1em;
+}
+h4 {
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+header{
+    text-align: center;
+}
+.topnav{
+    background-color: brown;
+    padding: .5em;
+}
+.topmenu a{
+    text-decoration: none;
+    color: yellow; 
+    padding: .5em;
+}
+topmenu a .virkur{
+    background-color: yellow;
+    color: black;
+}
+.topmenu a:hover, .topmenu a:active {
+    background-color: yellow;
+    color: brown;
+}
