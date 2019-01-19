@@ -14,3 +14,5 @@
 Yfirferð verkefna miðast við stöðu verkefna á skiladegi. Ef unnið er í verkefnum eftir skiladag þá þarf að útskýra ástæður þess í kommentakerfinu. **Ekki** er farið yfir verkefni sem skilað er í INNU. 
 
 **Skilafrestur** á verkefnum kemur fram í [námsáætlun](https://github.com/vefgrunnur/VEF1VG-H2-2018H/tree/master/N%C3%A1ms%C3%A1%C3%A6tlun%20VEF%C3%9E1VG) og Innu. 
+
+Farðu í verkefni 1,1 1,2 1,3
